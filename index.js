@@ -8,7 +8,6 @@ const types = {
   ENGINEER: "ENGINEER",
   INTERN: "INTERN",
 };
-const teamMates = [];
 
 const users = {
   manager: null,
@@ -42,6 +41,7 @@ const addManager = () => {
     ])
     .then(({ email, id, name, officeNumber }) => {
       users.manager = new Manager({ email, id, name, officeNumber });
+      console.log(users.manager);
     });
 };
 
@@ -120,18 +120,20 @@ const addUser = () => {
           (users.interns = new Intern({ intName, intID, intEmail, intSchool }))
       );
   }
-  const addChoice = () => {
-    inquirer
-      .prompt([
-        {
-          type: "list",
-          name: "type",
-          message: "What type of user would you like to add?",
-          choices: ["Engineer", "Intern", "Manager"],
-        },
-      ])
-      .then(console.log("choice added"));
-  };
+  addChoice();
+};
+
+const addChoice = () => {
+  inquirer
+    .prompt([
+      {
+        type: "list",
+        name: "type",
+        message: "What type of user would you like to add?",
+        choices: ["Engineer", "Intern", "Manager"],
+      },
+    ])
+    .then(console.log("choice added"));
 };
 
 let isComplete = false;
@@ -140,8 +142,8 @@ let isComplete = false;
 //  (name, employee ID, email address, and office number)
 addManager();
 
-// while (isComplete) {
-//   // addUser();
+// while (!isComplete) {
+//   addUser();
 //   console.log("is complete is true");
 // }
 
