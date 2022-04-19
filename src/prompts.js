@@ -42,7 +42,7 @@ module.exports = {
       type: 'list',
       name: 'type',
       message:
-        'What type of user would you like to add? Clicking none will finish and generate your page',
+        'What type of user would you like to add? Clicking none will finish and generate your page:',
       choices: ['engineer', 'intern', 'none'],
     },
   ],

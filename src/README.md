@@ -13,6 +13,7 @@ download the zip. Open in a terminal and npm i to install packages. Next enter "
 ## Usage Info
 
 Answer the prompts to start on your team profile. You must add 1 manager, and then can add any number of engineers and interns. different roles will ask for different information.
+[video Demo](https://drive.google.com/file/d/1BeVDhivSKIEXjQpKedFYQkVNsJPQelZT/view)
 
 ## Questions
 

@@ -5,7 +5,7 @@ module.exports = {
     let uniqueHtml = '';
 
     if (user.role === 'engineer') {
-      uniqueHtml = `<div class="card-body-data">GitHub: ${user.github}</div>`;
+      uniqueHtml = `<a href=${user.github} target="_blank" class="card-body-data">GitHub: ${user.github}</a>`;
     }
 
     if (user.role === 'intern') {
@@ -24,7 +24,7 @@ module.exports = {
 			<div class="card-body">
 				<div class="card-body-wrapper">
 					<div class="card-body-data">${user.id}</div>
-					<div class="card-body-data">${user.email}</div>
+					<a href="mailto:${user.email}?subject=website fan mail" class="card-body-data">${user.email}</a>
 					${uniqueHtml}
 				</div>
 			</div>
