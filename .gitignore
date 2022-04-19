@@ -1,2 +1,7 @@
+# general
 node_modules/
-dist/
+
+# output folder
+dist/*
+!dist/reset.css
+!dist/style.css
