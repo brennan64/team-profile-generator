@@ -19,7 +19,7 @@
     "url": "https://github.com/brennan64/team-profile-generator/issues"
   },
   "homepage": "https://github.com/brennan64/team-profile-generator#readme",
-  "author": "Danny Lenselink",
+  "author": "Brennan Heley",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.13.0",
