@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'input',
       name: 'name',
-      message: 'Please enter employee name:',
+      message: 'Please enter  name:',
     },
     {
       type: 'input',
@@ -34,14 +34,15 @@ module.exports = {
     {
       type: 'input',
       name: 'school',
-      message: 'Please enter employee school:',
+      message: 'Please enter intern school:',
     },
   ],
   chooseType: [
     {
       type: 'list',
       name: 'type',
-      message: 'What type of user would you like to add?',
+      message:
+        'What type of user would you like to add? Clicking none will finish and generate your page',
       choices: ['engineer', 'intern', 'none'],
     },
   ],
