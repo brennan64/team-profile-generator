@@ -5,31 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
     "test": "jest",
     "lint": "eslint --fix --ext .js",
-    "format": "prettier --write",
+    "format": "prettier --write ./",
     "check": "npm run lint && npm run format"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brennan64/team-profile-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/brennan64/team-profile-generator/issues"
-  },
-  "homepage": "https://github.com/brennan64/team-profile-generator#readme",
-  "author": "Brennan Heley",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "jest": "^27.5.1",
-    "nodemon": "^2.0.15",
     "prettier": "^2.6.2"
   },
   "dependencies": {
-    "inquirer": "^8.2.2",
-    "uuid": "^8.3.2"
+    "inquirer": "^8.2.2"
   }
 }
