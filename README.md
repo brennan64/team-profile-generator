@@ -8,7 +8,7 @@ A command line application to make your team a profile web page template.
 
 ## Installation Tips
 
-download the zip. Open in a terminal and npm i to install packages. Next enter "node index.js" to start the prompts.
+download the zip. Open in a terminal and enter "npm i" to install packages. Next enter "node index.js" to start the app.
 
 ## Usage Info
 
@@ -21,7 +21,7 @@ Email dev.mail.bag@gmail.com with questions, concerns, or if you would like to c
 
 ### Table of Contents
 
-[Description](#description)
-[Installation](#Installation-Tips)
-[Usage-Info](#Usage-Info)
+[Description](#description)\
+[Installation](#Installation-Tips)\
+[Usage-Info](#Usage-Info)\
 [Collaboration](#Questions)
